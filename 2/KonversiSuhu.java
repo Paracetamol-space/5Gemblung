@@ -4,11 +4,12 @@ public class KonversiSuhu {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("=================================");
+        System.out.println("-------------------------------------");
         System.out.println("    PROGRAM KONVERSI SUHU");
-        System.out.println("=================================");
+        System.out.println("-------------------------------------");
 
-        System.out.print("Masukkan suhu dalam Celsius: ");
+
+        System.out.print("\nMasukkan suhu dalam Celsius: ");
         double celsius = input.nextDouble();
 
         double fahrenheit = (celsius * 9.0 / 5.0) + 32;
@@ -21,7 +22,6 @@ public class KonversiSuhu {
         System.out.printf("Suhu dalam Reamur    : %.2f °R%n", reamur);
         System.out.printf("Suhu dalam Kelvin    : %.2f K%n", kelvin);
 
-        System.out.println("\nTerima kasih telah menggunakan program konversi suhu!");
         input.close();
     }
 }
