@@ -20,15 +20,15 @@ public class hitungdiskon {
         double totalBayar = totalBelanja - diskon;
 
         System.out.println("---- Detail Pembayaran ----");
-        System.out.println("Total belanja: Rp " + String.format("%.0f", totalBelanja));
+        System.out.println("Total belanja: Rp" + String.format("%.0f", totalBelanja));
         
         if (persentaseDiskon > 0) {
-            System.out.println("Diskon (" + (int)persentaseDiskon + "%): Rp " + String.format("%.0f", diskon));
+            System.out.println("Diskon (" + (int)persentaseDiskon + "%): Rp" + String.format("%.0f", diskon));
         } else {
-            System.out.println("Diskon: Rp 0 (Tidak ada diskon)");
+            System.out.println("Diskon: Rp0 (Tidak ada diskon)");
         }
         
-        System.out.println("Total yang harus dibayar: Rp " + String.format("%.0f", totalBayar));
+        System.out.println("Total yang harus dibayar: Rp" + String.format("%.0f", totalBayar));
         
         input.close();
     }
