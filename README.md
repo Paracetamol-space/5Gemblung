@@ -1,1 +1,2 @@
 # 5Gemblung
+git add . && git commit -m "update" && git push origin parase
