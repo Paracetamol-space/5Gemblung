@@ -19,7 +19,7 @@ public class hitungdiskon {
 
         double totalBayar = totalBelanja - diskon;
 
-        System.out.println("DETAIL BELANJA ");
+        System.out.println("---- Detail Pembayaran ----");
         System.out.println("Total belanja: Rp " + String.format("%.0f", totalBelanja));
         
         if (persentaseDiskon > 0) {
