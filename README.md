@@ -1,2 +1,2 @@
 # 5Gemblung
-git add . && git commit -m "update" && git push origin parase
+Praktikum Praktik Pemrograman UNY 2025
